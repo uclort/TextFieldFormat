@@ -75,7 +75,7 @@
                 textField.text = [self _parseString:textField.text];
                 
                 NSInteger offset = range.location;
-                if (range.location == 4 || range.location  == 9 || range.location  == 14 || range.location  == 19|| range.location  == 24) {
+                if (range.location == 4 || range.location  == 9 || range.location  == 14 || range.location  == 19) {
                     offset ++;
                 }
                 if (isLast) {
@@ -108,7 +108,7 @@
             textField.text = [self _parseString:textField.text];
             
             NSInteger offset = range.location + string.length;
-            if (range.location == 4 || range.location  == 9 || range.location  == 14 || range.location  == 19|| range.location  == 24) {
+            if (range.location == 4 || range.location  == 9 || range.location  == 14 || range.location  == 19) {
                 offset ++;
             }
             UITextPosition *newPos = [textField positionFromPosition:textField.beginningOfDocument offset:offset];
@@ -142,9 +142,6 @@
     }
     if (mStr.length > 19) {
         [mStr insertString:placeholder atIndex:19];
-    }
-    if (mStr.length > 24) {
-        [mStr insertString:placeholder atIndex:24];
     }
     
     return  mStr;
