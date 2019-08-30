@@ -13,28 +13,9 @@
 		4B6AA3BA22C4641D0053970F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6AA3B922C4641D0053970F /* Assets.xcassets */; };
 		4B6AA3BD22C4641D0053970F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6AA3BB22C4641D0053970F /* LaunchScreen.storyboard */; };
 		4B6AA3C022C4641D0053970F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA3BF22C4641D0053970F /* main.m */; };
-		4B6AA3CA22C4641D0053970F /* TextFieldFormatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA3C922C4641D0053970F /* TextFieldFormatTests.m */; };
-		4B6AA3D522C4641D0053970F /* TextFieldFormatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA3D422C4641D0053970F /* TextFieldFormatUITests.m */; };
 		4B6AA3EE22C466010053970F /* HmBankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA3EB22C466010053970F /* HmBankCard.m */; };
 		4B6AA3EF22C466010053970F /* HmPhoneNum.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA3EC22C466010053970F /* HmPhoneNum.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4B6AA3C622C4641D0053970F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B6AA3A522C4641B0053970F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B6AA3AC22C4641B0053970F;
-			remoteInfo = TextFieldFormat;
-		};
-		4B6AA3D122C4641D0053970F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B6AA3A522C4641B0053970F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B6AA3AC22C4641B0053970F;
-			remoteInfo = TextFieldFormat;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4B6AA3AD22C4641B0053970F /* TextFieldFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,12 +28,6 @@
 		4B6AA3BC22C4641D0053970F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6AA3BE22C4641D0053970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6AA3BF22C4641D0053970F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4B6AA3C522C4641D0053970F /* TextFieldFormatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldFormatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6AA3C922C4641D0053970F /* TextFieldFormatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldFormatTests.m; sourceTree = "<group>"; };
-		4B6AA3CB22C4641D0053970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B6AA3D022C4641D0053970F /* TextFieldFormatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldFormatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B6AA3D422C4641D0053970F /* TextFieldFormatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldFormatUITests.m; sourceTree = "<group>"; };
-		4B6AA3D622C4641D0053970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B6AA3EA22C466010053970F /* HmPhoneNum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HmPhoneNum.h; sourceTree = "<group>"; };
 		4B6AA3EB22C466010053970F /* HmBankCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmBankCard.m; sourceTree = "<group>"; };
 		4B6AA3EC22C466010053970F /* HmPhoneNum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HmPhoneNum.m; sourceTree = "<group>"; };
@@ -67,20 +42,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B6AA3C222C4641D0053970F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B6AA3CD22C4641D0053970F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				4B6AA3AF22C4641B0053970F /* TextFieldFormat */,
-				4B6AA3C822C4641D0053970F /* TextFieldFormatTests */,
-				4B6AA3D322C4641D0053970F /* TextFieldFormatUITests */,
 				4B6AA3AE22C4641B0053970F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				4B6AA3AD22C4641B0053970F /* TextFieldFormat.app */,
-				4B6AA3C522C4641D0053970F /* TextFieldFormatTests.xctest */,
-				4B6AA3D022C4641D0053970F /* TextFieldFormatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,31 +78,13 @@
 			path = TextFieldFormat;
 			sourceTree = "<group>";
 		};
-		4B6AA3C822C4641D0053970F /* TextFieldFormatTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B6AA3C922C4641D0053970F /* TextFieldFormatTests.m */,
-				4B6AA3CB22C4641D0053970F /* Info.plist */,
-			);
-			path = TextFieldFormatTests;
-			sourceTree = "<group>";
-		};
-		4B6AA3D322C4641D0053970F /* TextFieldFormatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B6AA3D422C4641D0053970F /* TextFieldFormatUITests.m */,
-				4B6AA3D622C4641D0053970F /* Info.plist */,
-			);
-			path = TextFieldFormatUITests;
-			sourceTree = "<group>";
-		};
 		4B6AA3E922C466010053970F /* HmTextFieldFormat */ = {
 			isa = PBXGroup;
 			children = (
-				4B6AA3EA22C466010053970F /* HmPhoneNum.h */,
-				4B6AA3EB22C466010053970F /* HmBankCard.m */,
-				4B6AA3EC22C466010053970F /* HmPhoneNum.m */,
 				4B6AA3ED22C466010053970F /* HmBankCard.h */,
+				4B6AA3EB22C466010053970F /* HmBankCard.m */,
+				4B6AA3EA22C466010053970F /* HmPhoneNum.h */,
+				4B6AA3EC22C466010053970F /* HmPhoneNum.m */,
 			);
 			path = HmTextFieldFormat;
 			sourceTree = SOURCE_ROOT;
@@ -170,42 +109,6 @@
 			productReference = 4B6AA3AD22C4641B0053970F /* TextFieldFormat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B6AA3C422C4641D0053970F /* TextFieldFormatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6AA3DC22C4641D0053970F /* Build configuration list for PBXNativeTarget "TextFieldFormatTests" */;
-			buildPhases = (
-				4B6AA3C122C4641D0053970F /* Sources */,
-				4B6AA3C222C4641D0053970F /* Frameworks */,
-				4B6AA3C322C4641D0053970F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B6AA3C722C4641D0053970F /* PBXTargetDependency */,
-			);
-			name = TextFieldFormatTests;
-			productName = TextFieldFormatTests;
-			productReference = 4B6AA3C522C4641D0053970F /* TextFieldFormatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B6AA3CF22C4641D0053970F /* TextFieldFormatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6AA3DF22C4641D0053970F /* Build configuration list for PBXNativeTarget "TextFieldFormatUITests" */;
-			buildPhases = (
-				4B6AA3CC22C4641D0053970F /* Sources */,
-				4B6AA3CD22C4641D0053970F /* Frameworks */,
-				4B6AA3CE22C4641D0053970F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B6AA3D222C4641D0053970F /* PBXTargetDependency */,
-			);
-			name = TextFieldFormatUITests;
-			productName = TextFieldFormatUITests;
-			productReference = 4B6AA3D022C4641D0053970F /* TextFieldFormatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,14 +120,6 @@
 				TargetAttributes = {
 					4B6AA3AC22C4641B0053970F = {
 						CreatedOnToolsVersion = 10.2.1;
-					};
-					4B6AA3C422C4641D0053970F = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4B6AA3AC22C4641B0053970F;
-					};
-					4B6AA3CF22C4641D0053970F = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4B6AA3AC22C4641B0053970F;
 					};
 				};
 			};
@@ -242,8 +137,6 @@
 			projectRoot = "";
 			targets = (
 				4B6AA3AC22C4641B0053970F /* TextFieldFormat */,
-				4B6AA3C422C4641D0053970F /* TextFieldFormatTests */,
-				4B6AA3CF22C4641D0053970F /* TextFieldFormatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,20 +149,6 @@
 				4B6AA3BD22C4641D0053970F /* LaunchScreen.storyboard in Resources */,
 				4B6AA3BA22C4641D0053970F /* Assets.xcassets in Resources */,
 				4B6AA3B822C4641B0053970F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B6AA3C322C4641D0053970F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B6AA3CE22C4641D0053970F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,36 +167,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B6AA3C122C4641D0053970F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B6AA3CA22C4641D0053970F /* TextFieldFormatTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B6AA3CC22C4641D0053970F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B6AA3D522C4641D0053970F /* TextFieldFormatUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B6AA3C722C4641D0053970F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B6AA3AC22C4641B0053970F /* TextFieldFormat */;
-			targetProxy = 4B6AA3C622C4641D0053970F /* PBXContainerItemProxy */;
-		};
-		4B6AA3D222C4641D0053970F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B6AA3AC22C4641B0053970F /* TextFieldFormat */;
-			targetProxy = 4B6AA3D122C4641D0053970F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4B6AA3B622C4641B0053970F /* Main.storyboard */ = {
@@ -458,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WG4VV675H;
 				INFOPLIST_FILE = TextFieldFormat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +326,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WG4VV675H;
 				INFOPLIST_FILE = TextFieldFormat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,80 +334,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4B6AA3DD22C4641D0053970F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldFormat.app/TextFieldFormat";
-			};
-			name = Debug;
-		};
-		4B6AA3DE22C4641D0053970F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldFormat.app/TextFieldFormat";
-			};
-			name = Release;
-		};
-		4B6AA3E022C4641D0053970F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextFieldFormat;
-			};
-			name = Debug;
-		};
-		4B6AA3E122C4641D0053970F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextFieldFormat;
 			};
 			name = Release;
 		};
@@ -576,24 +354,6 @@
 			buildConfigurations = (
 				4B6AA3DA22C4641D0053970F /* Debug */,
 				4B6AA3DB22C4641D0053970F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B6AA3DC22C4641D0053970F /* Build configuration list for PBXNativeTarget "TextFieldFormatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B6AA3DD22C4641D0053970F /* Debug */,
-				4B6AA3DE22C4641D0053970F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B6AA3DF22C4641D0053970F /* Build configuration list for PBXNativeTarget "TextFieldFormatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B6AA3E022C4641D0053970F /* Debug */,
-				4B6AA3E122C4641D0053970F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,30 +12,13 @@
 		4B9F0CD622B33F2B00743097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9F0CD422B33F2B00743097 /* Main.storyboard */; };
 		4B9F0CD822B33F2D00743097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9F0CD722B33F2D00743097 /* Assets.xcassets */; };
 		4B9F0CDB22B33F2D00743097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9F0CD922B33F2D00743097 /* LaunchScreen.storyboard */; };
-		4B9F0CE622B33F2D00743097 /* TextFieldFormatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F0CE522B33F2D00743097 /* TextFieldFormatTests.swift */; };
-		4B9F0CF122B33F2D00743097 /* TextFieldFormatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F0CF022B33F2D00743097 /* TextFieldFormatUITests.swift */; };
 		4B9F0D1E22B341AF00743097 /* HmPhoneTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F0D1C22B341AF00743097 /* HmPhoneTextField.swift */; };
 		4B9F0D1F22B341AF00743097 /* HmBankTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9F0D1D22B341AF00743097 /* HmBankTextField.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4B9F0CE222B33F2D00743097 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B9F0CC522B33F2B00743097 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B9F0CCC22B33F2B00743097;
-			remoteInfo = TextFieldFormat;
-		};
-		4B9F0CED22B33F2D00743097 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B9F0CC522B33F2B00743097 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B9F0CCC22B33F2B00743097;
-			remoteInfo = TextFieldFormat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		4B7FE47A2318F01600711C26 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4B7FE47B2318F01600711C26 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		4B9F0CCD22B33F2B00743097 /* TextFieldFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9F0CD022B33F2B00743097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B9F0CD222B33F2B00743097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,32 +26,12 @@
 		4B9F0CD722B33F2D00743097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9F0CDA22B33F2D00743097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9F0CDC22B33F2D00743097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B9F0CE122B33F2D00743097 /* TextFieldFormatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldFormatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B9F0CE522B33F2D00743097 /* TextFieldFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFormatTests.swift; sourceTree = "<group>"; };
-		4B9F0CE722B33F2D00743097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B9F0CEC22B33F2D00743097 /* TextFieldFormatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldFormatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B9F0CF022B33F2D00743097 /* TextFieldFormatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFormatUITests.swift; sourceTree = "<group>"; };
-		4B9F0CF222B33F2D00743097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B9F0D1C22B341AF00743097 /* HmPhoneTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HmPhoneTextField.swift; sourceTree = "<group>"; };
 		4B9F0D1D22B341AF00743097 /* HmBankTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HmBankTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B9F0CCA22B33F2B00743097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9F0CDE22B33F2D00743097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9F0CE922B33F2D00743097 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9F0CCF22B33F2B00743097 /* TextFieldFormat */,
-				4B9F0CE422B33F2D00743097 /* TextFieldFormatTests */,
-				4B9F0CEF22B33F2D00743097 /* TextFieldFormatUITests */,
 				4B9F0CCE22B33F2B00743097 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9F0CCD22B33F2B00743097 /* TextFieldFormat.app */,
-				4B9F0CE122B33F2D00743097 /* TextFieldFormatTests.xctest */,
-				4B9F0CEC22B33F2D00743097 /* TextFieldFormatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,24 +69,6 @@
 				4B9F0CDC22B33F2D00743097 /* Info.plist */,
 			);
 			path = TextFieldFormat;
-			sourceTree = "<group>";
-		};
-		4B9F0CE422B33F2D00743097 /* TextFieldFormatTests */ = {
-			isa = PBXGroup;
-			children = (
-				4B9F0CE522B33F2D00743097 /* TextFieldFormatTests.swift */,
-				4B9F0CE722B33F2D00743097 /* Info.plist */,
-			);
-			path = TextFieldFormatTests;
-			sourceTree = "<group>";
-		};
-		4B9F0CEF22B33F2D00743097 /* TextFieldFormatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4B9F0CF022B33F2D00743097 /* TextFieldFormatUITests.swift */,
-				4B9F0CF222B33F2D00743097 /* Info.plist */,
-			);
-			path = TextFieldFormatUITests;
 			sourceTree = "<group>";
 		};
 		4B9F0D1B22B341AF00743097 /* HmTextFieldFormat */ = {
@@ -159,42 +100,6 @@
 			productReference = 4B9F0CCD22B33F2B00743097 /* TextFieldFormat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B9F0CE022B33F2D00743097 /* TextFieldFormatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9F0CF822B33F2D00743097 /* Build configuration list for PBXNativeTarget "TextFieldFormatTests" */;
-			buildPhases = (
-				4B9F0CDD22B33F2D00743097 /* Sources */,
-				4B9F0CDE22B33F2D00743097 /* Frameworks */,
-				4B9F0CDF22B33F2D00743097 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B9F0CE322B33F2D00743097 /* PBXTargetDependency */,
-			);
-			name = TextFieldFormatTests;
-			productName = TextFieldFormatTests;
-			productReference = 4B9F0CE122B33F2D00743097 /* TextFieldFormatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4B9F0CEB22B33F2D00743097 /* TextFieldFormatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9F0CFB22B33F2D00743097 /* Build configuration list for PBXNativeTarget "TextFieldFormatUITests" */;
-			buildPhases = (
-				4B9F0CE822B33F2D00743097 /* Sources */,
-				4B9F0CE922B33F2D00743097 /* Frameworks */,
-				4B9F0CEA22B33F2D00743097 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B9F0CEE22B33F2D00743097 /* PBXTargetDependency */,
-			);
-			name = TextFieldFormatUITests;
-			productName = TextFieldFormatUITests;
-			productReference = 4B9F0CEC22B33F2D00743097 /* TextFieldFormatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,14 +113,6 @@
 					4B9F0CCC22B33F2B00743097 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					4B9F0CE022B33F2D00743097 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4B9F0CCC22B33F2B00743097;
-					};
-					4B9F0CEB22B33F2D00743097 = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 4B9F0CCC22B33F2B00743097;
-					};
 				};
 			};
 			buildConfigurationList = 4B9F0CC822B33F2B00743097 /* Build configuration list for PBXProject "TextFieldFormat" */;
@@ -225,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 4B9F0CC422B33F2B00743097;
 			productRefGroup = 4B9F0CCE22B33F2B00743097 /* Products */;
@@ -232,8 +130,6 @@
 			projectRoot = "";
 			targets = (
 				4B9F0CCC22B33F2B00743097 /* TextFieldFormat */,
-				4B9F0CE022B33F2D00743097 /* TextFieldFormatTests */,
-				4B9F0CEB22B33F2D00743097 /* TextFieldFormatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,20 +142,6 @@
 				4B9F0CDB22B33F2D00743097 /* LaunchScreen.storyboard in Resources */,
 				4B9F0CD822B33F2D00743097 /* Assets.xcassets in Resources */,
 				4B9F0CD622B33F2B00743097 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9F0CDF22B33F2D00743097 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9F0CEA22B33F2D00743097 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,42 +159,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B9F0CDD22B33F2D00743097 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B9F0CE622B33F2D00743097 /* TextFieldFormatTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9F0CE822B33F2D00743097 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B9F0CF122B33F2D00743097 /* TextFieldFormatUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B9F0CE322B33F2D00743097 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B9F0CCC22B33F2B00743097 /* TextFieldFormat */;
-			targetProxy = 4B9F0CE222B33F2D00743097 /* PBXContainerItemProxy */;
-		};
-		4B9F0CEE22B33F2D00743097 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B9F0CCC22B33F2B00743097 /* TextFieldFormat */;
-			targetProxy = 4B9F0CED22B33F2D00743097 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4B9F0CD422B33F2B00743097 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4B9F0CD522B33F2B00743097 /* Base */,
+				4B7FE47A2318F01600711C26 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -321,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				4B9F0CDA22B33F2D00743097 /* Base */,
+				4B7FE47B2318F01600711C26 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -393,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -482,88 +339,6 @@
 			};
 			name = Release;
 		};
-		4B9F0CF922B33F2D00743097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldFormat.app/TextFieldFormat";
-			};
-			name = Debug;
-		};
-		4B9F0CFA22B33F2D00743097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldFormat.app/TextFieldFormat";
-			};
-			name = Release;
-		};
-		4B9F0CFC22B33F2D00743097 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextFieldFormat;
-			};
-			name = Debug;
-		};
-		4B9F0CFD22B33F2D00743097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8WG4VV675H;
-				INFOPLIST_FILE = TextFieldFormatUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = HouMeng.TextFieldFormatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TextFieldFormat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,24 +356,6 @@
 			buildConfigurations = (
 				4B9F0CF622B33F2D00743097 /* Debug */,
 				4B9F0CF722B33F2D00743097 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B9F0CF822B33F2D00743097 /* Build configuration list for PBXNativeTarget "TextFieldFormatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B9F0CF922B33F2D00743097 /* Debug */,
-				4B9F0CFA22B33F2D00743097 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B9F0CFB22B33F2D00743097 /* Build configuration list for PBXNativeTarget "TextFieldFormatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B9F0CFC22B33F2D00743097 /* Debug */,
-				4B9F0CFD22B33F2D00743097 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
